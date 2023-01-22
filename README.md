@@ -19,3 +19,4 @@ The state management for this project could have been handled using setState and
 * The UI is currently in wireframe form and requires further refinement. 
 * The list or grid displaying the guessed words can be constructed dynamically using a ListView or GridView. 
 * The StreamBuilder is located at the top widget level, causing all widgets to be rebuilt with each update, even if they haven't changed. To optimize this, we can have more granular Blocs ... one for the text input-score-guess and one for the timer, or, use one stream output for updating the word and score label when a word is guessed, and another stream output for updating the countdown timer label.
+* Unit tests for the GameModel should be implemented, even though it is not explicitly required in the task description..
