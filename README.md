@@ -16,6 +16,7 @@ The state management for this project could have been handled using setState and
 
 # to improve
 
+* Redo repo with fine grained commits, a good practice is doing this with TDD, one commit for each Test pass.
 * The UI is currently in wireframe form and requires further refinement. 
 * The list or grid displaying the guessed words can be constructed dynamically using a ListView or GridView. 
 * The current Bloc impl needs a kind of Bloc.of(context) to have a decent share state management, other wise you will be injecting the Bloc all along the widget tree to get acces to the shared state.
